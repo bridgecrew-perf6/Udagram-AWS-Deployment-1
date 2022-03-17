@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./www s3://my-udagram-buckey/
+aws s3 cp --recursive --acl public-read ./www s3://my-udagram-bucket/
