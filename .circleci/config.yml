@@ -9,17 +9,10 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - browser-tools/install-chrome
-      - browser-tools/install-chromedriver
       - checkout
       - node/install
       - aws-cli/setup
       - eb/setup
-      - run:
-          name: Check install
-          command: |
-            google-chrome --version
-            chromedriver --version
       - run:
           name: Backend Installing Packages & Building.
           command: npm run build:backend
