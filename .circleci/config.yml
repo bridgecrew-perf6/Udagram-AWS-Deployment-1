@@ -45,3 +45,11 @@ jobs:
           name: Deploy Frontend
           command: |
             npm run frontend:deploy
+workflows:
+  udagram:
+    jobs:
+      - build:
+        filter:
+          branches:
+            only:
+              - master
