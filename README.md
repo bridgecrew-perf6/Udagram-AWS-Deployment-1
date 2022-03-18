@@ -52,7 +52,6 @@ The following environment variables were used:
 ![ENV2](./documentation/images/env2.png)
 
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5.svg?style=svg)](https://app.circleci.com/pipelines/github/yanxx422/Udagram-AWS-Deployment?filter=all)
 
 # Dependencies  
   
