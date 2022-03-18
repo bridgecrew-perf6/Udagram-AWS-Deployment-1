@@ -3,6 +3,11 @@
 ## Introduction
 
 This project is deployed using Circleci, the configuration file is in `./circleci/config.yml`.
+
+
+## Pipeline Overflow Diagram
+![Pipeline diagram](./images/pipeline.png)
+
 ## Pipeline Description
 #### Specify the Circleci version, version 2.1 is used
 ```
