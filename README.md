@@ -3,6 +3,8 @@
   
 Udagram is a full stack web application that allows users to log in and post pictures. This project deploys it to **AWS** so that it is available to customers. The application contains the main components of a 3-tier full stack application (**UI**, **API**, and **Database**). The services and infrastructure are configured on AWS. **CircleCI** is used for automated pipeline.
 
+[![CircleCI](https://circleci.com/gh/yanxx422/Udagram-AWS-Deployment/tree/main.svg?style=svg)](https://circleci.com/gh/yanxx422/Udagram-AWS-Deployment/tree/main)
+
 The application can be interacted using the following link, which is hosted by AWS S3 static web hosting service:
 
 http://my-udagram-bucket.s3-website-us-east-1.amazonaws.com
@@ -16,9 +18,17 @@ http://udagram-api-dev2.us-east-1.elasticbeanstalk.com/
 AWS Elastic beanstalk is used for deploying backend application, which resides in `/udagram-api` folder.
 
 AWS RDS is used for the postgres database on the cloud.
+
 AWS S3 bucket is used for storing object files, as well as the frontend application, which resides in `/udagram-frontend`.
 
 More information about the infrastructure and application dependencies are included in `/document` folder.
+
+## CircleCi Pipeline Diagram
+![Pipeline diagram](./documentation/images/pipeline.png)
+
+
+
+More information about the infrastructure, application dependencies and pipeline are included in `/document` folder.
   
 ## Configuration Screenshots
 
