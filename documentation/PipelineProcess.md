@@ -79,3 +79,14 @@ jobs:
 "frontend:deploy": "cd udagram-frontend && npm run deploy",  
 "backend:deploy": "cd udagram-api && npm run deploy"
 ```
+#### Define workflow to listen only changes in mater branch
+```
+workflows:
+  udagram:
+    jobs:
+      - build:
+        filter:
+          branches:
+            only:
+              - master
+ ```
