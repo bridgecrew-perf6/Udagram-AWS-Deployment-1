@@ -119,6 +119,6 @@ Set an accessible endpoint(Elastic Beanstalk endpoint) as the `apiHost` variable
 ```
 ## CircleCI
 CircleCI  is used for CI/CD pipeline. Log in CircleCI with Github account and chooses project repo to build the pipeline.
-The following environment dependencies is provided with CircleCI project settings:
+Check `README.md` in root folder for specific environment variables needed to set up the project.
 
 
